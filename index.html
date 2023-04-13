@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id='sectionHome'>
+        
+        <div class="cont">
+            <div class="card">
+    <h4>Balayesu School, Hindupur</h4>
+                <div class="each">
+                    
+                    <h1 class="screens">Student Details</h1>
+                    <button class="button" onclick="display('sectionStudent')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></button>
+                </div>
+                <div class="each">
+                    <h1 class="screens">Teacher Details</h1>
+                    <button class="button" onclick="display('sectionTeacher')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></button>
+                </div>
+                <div class="each">
+                    <h1 class="screens">Fee Details</h1>
+                    <button class="button" onclick="display('sectionFee')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='sectionStudent' class="cont">
+
+
+        <div class="card">
+            <h1 class="name">Name:Yashwanth</h1>
+            <p class="id">student Id:100</p>
+            <p class="class">Class: class-X section-B</p>
+            <p class="vilage">Place:Hindupur</p>
+            <p class="fee">Total Fee: 100000</p>
+            <p class="date">Date Of Join: 10-06-2022</p>
+        </div>
+
+        <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+
+    </div>
+    <div id='sectionTeacher' class='cont'>
+
+        <div class="card">
+            <h1 class="name">Name:Ravi Kumar</h1>
+            <p class="id"> Teacher ID:1001</p>
+            <p class="class">Class Teacher for : class X- section B</p>
+        </div>
+        <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+    </div>
+    <div id='sectionFee' class="cont">
+
+        <div class="card">
+            <h1 class="name">Name:Yashwanth</h1>
+            <p class="id">student Id:100</p>
+            <p class='Teacher'>Class Teacher: Ravi Kumar</p>
+            <p class="class"> Class class-X section-B</p>
+            <p class="vilage">Hindupur</p>
+            <p class="fee">Balance Fee: 50000</p>
+            <p class="date">Date of Join: 10-06-2022</p>
+        </div>
+        <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
